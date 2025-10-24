@@ -25,14 +25,14 @@
             {
               idleAction = "dpms off";
               returnAction = "dpms on";
-              timeout = 7200;
+              timeout = 28800;
             }
             {
               idleAction = [
                 "systemctl"
                 "suspend-then-hibernate"
               ];
-              timeout = 7200;
+              timeout = 28800;
             }
           ];
         };
