@@ -1,0 +1,7 @@
+{ ... }:
+{
+  imports = [
+    ./hyprwm
+    ./quickshell
+  ];
+}
