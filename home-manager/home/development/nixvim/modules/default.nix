@@ -18,7 +18,6 @@
     ./snip
     ./telescope
     ./terminal
-    ./tests
     ./treesitter
     ./trouble
   ];
