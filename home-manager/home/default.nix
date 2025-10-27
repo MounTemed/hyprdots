@@ -6,6 +6,5 @@
     ./packages
     ./stylix
     ./terminal
-    ./wayland
   ];
 }
