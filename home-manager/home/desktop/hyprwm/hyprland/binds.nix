@@ -23,8 +23,6 @@
       "$Mod, F, exec, foot"
       "$Mod, H, exec, hyprpicker -a"
       "$Mod, S, exec, grimblast copy screen"
-      "$Mod, K, exec, kitty"
-      "$Mod, N, exec, nautilus"
 
       "$Mod, 1, workspace, 1"
       "$Mod, 2, workspace, 2"
