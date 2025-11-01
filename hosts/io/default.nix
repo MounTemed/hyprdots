@@ -5,5 +5,5 @@
     ./hardware-configuration.nix
   ];
 
-  environment.variables.NH_FLAKE = "/home/laimick/LuneDots";
+  environment.variables.NH_FLAKE = "/home/laimick/HyprDots";
 }
