@@ -28,7 +28,7 @@
       nerd-fonts.space-mono
 
       # Emoji & Symbol Fonts
-      noto-fonts-emoji
+      noto-fonts-color-emoji
       twemoji-color-font
 
       # Icon Fonts
