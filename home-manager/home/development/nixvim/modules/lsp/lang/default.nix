@@ -8,7 +8,6 @@
     ./helm.nix
     ./nginx.nix
     ./nix.nix
-    ./postgresql.nix
     ./terraform.nix
     ./yaml.nix
   ];

@@ -4,7 +4,6 @@
     ./desktop
     ./development
     ./packages
-    ./stylix
     ./terminal
   ];
 }
