@@ -2,6 +2,7 @@
 {
   wayland.windowManager.hyprland.settings = {
     exec-once = [
+      "hyprctl setcursor Bibata-Modern-Classic 22"
       "caelestia shell -d"
       "sleep 2 && caelestia shell wallpaper set ~/.local/state/caelestia/wallpaper/current"
     ];
