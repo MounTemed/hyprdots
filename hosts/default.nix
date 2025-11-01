@@ -28,6 +28,8 @@ in
         inputs.nix-index-database.nixosModules.nix-index
         {
           home-manager = {
+            useGlobalPkgs = true;
+            useUserPackages = true;
             users.${user} =
               { config, pkgs, ... }:
               (import homeImports {
