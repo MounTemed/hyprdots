@@ -4,10 +4,10 @@
   ...
 }:
 let
-  quickshell = inputs.quickshell.packages.${pkgs.system}.default;
+  quickshell = inputs.quickshell.packages.${pkgs.stdenv.hostPlatform.system}.default;
 in
 {
-  environment.systemPackages = [ 
+  environment.systemPackages = [
     quickshell
   ];
 }

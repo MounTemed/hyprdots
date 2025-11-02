@@ -5,6 +5,6 @@
 }:
 {
   home.packages = [
-    inputs.hyprpicker.packages.${pkgs.system}.hyprpicker
+    inputs.hyprpicker.packages.${pkgs.stdenv.hostPlatform.system}.hyprpicker
   ];
 }

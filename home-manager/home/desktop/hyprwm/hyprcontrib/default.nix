@@ -1,10 +1,10 @@
 {
+  pkgs,
   inputs,
-  systems,
   ...
 }:
 {
   home.packages = [
-    inputs.hyprland-contrib.packages.${systems}.grimblast
+    inputs.hyprland-contrib.packages.${pkgs.stdenv.hostPlatform.system}.grimblast
   ];
 }

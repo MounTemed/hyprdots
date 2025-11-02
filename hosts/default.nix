@@ -5,18 +5,16 @@
 }:
 let
   homeImports = "${self}/home-manager/profiles/${user}";
-  systems = "x86_64-linux";
   user = "laimick"; # Change pls
 in
 {
   flake.nixosConfigurations = {
     nixos = inputs.nixpkgs.lib.nixosSystem {
-      system = systems;
+      system = "x86_64-linux";
       specialArgs = {
         inherit
           inputs
           self
-          systems
           user
           ;
       };
@@ -38,7 +36,6 @@ in
                   pkgs
                   self
                   inputs
-                  systems
                   user
                   ;
               });
@@ -46,7 +43,6 @@ in
               inherit
                 inputs
                 self
-                systems
                 user
                 ;
             };
