@@ -33,7 +33,7 @@
     hyprlock.inputs.nixpkgs.follows = "hyprland/nixpkgs";
     hyprlock.inputs.systems.follows = "hyprland/systems";
 
-    caelestia-shell.url = "github:caelestia-dots/shell";
+    caelestia-shell.url = "github:mountemed/caelestia-quickshell";
     caelestia-shell.inputs.nixpkgs.follows = "nixpkgs";
 
     quickshell.url = "github:quickshell-mirror/quickshell";
@@ -44,8 +44,6 @@
 
     nixvim.url = "github:nix-community/nixvim";
     nixvim.inputs.nixpkgs.follows = "nixpkgs";
-
-    pre-commit-hooks.url = "github:cachix/git-hooks.nix";
 
     nix-index-database.url = "github:nix-community/nix-index-database";
     nix-index-database.inputs.nixpkgs.follows = "nixpkgs";
