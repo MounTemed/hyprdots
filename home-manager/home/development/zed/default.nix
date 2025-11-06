@@ -4,7 +4,7 @@
   ...
 }:
 # let
-#   # zed-latest = inputs.zed.packages.${pkgs.stdenv.hostPlatform.system}.default;
+#   zed-latest = inputs.zed.packages.${pkgs.stdenv.hostPlatform.system}.default;
 # in
 {
   home.packages = [
