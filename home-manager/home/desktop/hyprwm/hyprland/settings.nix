@@ -4,7 +4,7 @@
     exec-once = [
       "hyprctl setcursor Bibata-Modern-Classic 22"
       "caelestia shell -d"
-      "sleep 2 && caelestia shell wallpaper set ~/.local/state/caelestia/wallpaper/current"
+      "caelestia scheme set -n dynamic"
     ];
 
     monitor = "DP-1,2560x1440@170,0x0,1";
