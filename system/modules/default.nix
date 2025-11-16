@@ -14,6 +14,7 @@
     ./programs
     ./security
     ./swap
+    ./systemd
     ./time
     ./users
     ./virtualisation
