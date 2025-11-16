@@ -12,6 +12,7 @@
     ./nvidia
     ./pipewire
     ./programs
+    ./security
     ./swap
     ./time
     ./users
