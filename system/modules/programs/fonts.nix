@@ -15,6 +15,9 @@
       fantasque-sans-mono
       cascadia-code
       maple-mono.NF
+      noto-fonts
+      noto-fonts-cjk-sans
+      liberation_ttf
 
       # Nerd Fonts
       nerd-fonts.symbols-only
