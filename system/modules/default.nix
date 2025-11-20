@@ -10,6 +10,7 @@
     ./nh
     ./nix
     ./nvidia
+    ./vpn
     ./pipewire
     ./programs
     ./security
