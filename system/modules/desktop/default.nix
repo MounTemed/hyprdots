@@ -1,7 +1,7 @@
 { ... }:
 {
   imports = [
-    ./gdm.nix
+    # ./gdm.nix
     ./hyprland.nix
     ./quickshell.nix
   ];
