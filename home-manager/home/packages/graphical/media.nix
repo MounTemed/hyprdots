@@ -5,9 +5,12 @@
     showtime
     lact
     papers
+    nautilus
 
     telegram-desktop
 
     chromium
+
+    libreoffice
   ];
 }
