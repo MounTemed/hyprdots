@@ -4,5 +4,7 @@
     nixd
     nil
     nixfmt-rfc-style
+    nixfmt-tree
+    alejandra
   ];
 }

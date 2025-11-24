@@ -2,6 +2,7 @@
 {
   imports = [
     ./ansible.nix
+    ./cargo.nix
     ./go.nix
     ./nginx.nix
     ./nix.nix
