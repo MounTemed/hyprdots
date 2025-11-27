@@ -4,7 +4,6 @@
     exec-once = [
       "hyprctl setcursor Bibata-Modern-Classic 22"
       "caelestia shell -d"
-      "caelestia scheme set -n dynamic"
     ];
 
     monitor = "DP-1,2560x1440@170,0x0,1";
