@@ -1,8 +1,7 @@
-{ ... }:
-{
+{ ... }: {
   programs.nixvim = {
     plugins = {
-      neo-tree.enable = true;
+      nix.enable = true;
     };
   };
 }
