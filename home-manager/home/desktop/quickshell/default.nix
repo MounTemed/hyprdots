@@ -9,7 +9,11 @@
 
   programs.caelestia = {
     enable = true;
-    systemd.enable = false;
+    systemd = {
+      enable = true;
+      target = "graphical-session.target";
+      environment = [];
+    };
     settings = {
       bar.status = {
         showBattery = false;
