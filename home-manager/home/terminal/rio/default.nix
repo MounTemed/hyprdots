@@ -8,12 +8,9 @@
 
     settings = {
       fonts = {
-        size = 13;
-
-        disable-warnings-not-found = {
-          enable = false;
-        };
+        size = 16;
       };
     };
   };
 }
+
