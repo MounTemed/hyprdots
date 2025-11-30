@@ -1,7 +1,5 @@
 { ... }: {
   imports = [
-    ./lsp
-    ./lang
-    ./nav
+    ./nvim-tree.nix
   ];
 }
