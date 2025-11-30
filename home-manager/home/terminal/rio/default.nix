@@ -7,9 +7,9 @@
     enable = true;
 
     settings = {
-      confirm-before-quit = true;
+      confirm-before-quit = false;
       fonts = {
-        size = 20;
+        size = 18;
         featues = [ ];
         use-drawable-chars = true;
         symbol-map = [ ];
@@ -22,6 +22,9 @@
       editor = {
         program = "nvim";
         args = [ ];
+      };
+      colors = {
+        cursor = "#d6d3e6";
       };
     };
   };
