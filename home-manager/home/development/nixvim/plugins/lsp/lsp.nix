@@ -1,5 +1,5 @@
 { ... }: {
   programs.nixvim = {
-    plugins.nix.enable = true;
+    plugins.lsp.enable = true;
   };
 }
