@@ -3,5 +3,6 @@
     ./lsp
     ./lang
     ./nav
+    ./icons
   ];
 }
