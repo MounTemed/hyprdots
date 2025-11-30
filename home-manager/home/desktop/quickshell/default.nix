@@ -12,7 +12,7 @@
     systemd = {
       enable = true;
       target = "graphical-session.target";
-      environment = [];
+      environment = [ ];
     };
     settings = {
       bar.status = {

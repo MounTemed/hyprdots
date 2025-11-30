@@ -1,7 +1,8 @@
-{ ... }: {
+{ ... }:
+{
   imports = [
     ./blink.nix
-    ./lsp.nix 
+    ./lsp.nix
     ./nix.nix
   ];
 }
