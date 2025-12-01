@@ -1,6 +1,7 @@
 { ... }:
 {
   imports = [
-    ./nvim-tree.nix
+    ./neotree.nix
+    ./telescope.nix
   ];
 }

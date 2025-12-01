@@ -1,7 +1,6 @@
 { ... }:
 {
   imports = [
-    ./nix.nix
-    ./efmls.nix
+    ./dap.nix
   ];
 }
