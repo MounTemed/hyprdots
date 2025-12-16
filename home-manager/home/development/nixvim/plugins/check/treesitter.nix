@@ -15,6 +15,7 @@
         helm
         rust
         graphql
+        hcl
       ];
     };
   };

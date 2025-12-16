@@ -1,12 +1,15 @@
 { ... }:
 {
   imports = [
+    ./check
+    ./cmp
     ./colorscheme
-    ./lsp
-    ./lang
-    ./nav
-    ./icons
+    ./customize
     ./debug
-    ./syntax
+    ./format
+    ./icons
+    ./lsp
+    ./nav
+    ./terminal
   ];
 }
