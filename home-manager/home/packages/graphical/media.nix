@@ -5,7 +5,6 @@
     showtime
     lact
     papers
-    nautilus
 
     telegram-desktop
 
