@@ -1,7 +1,7 @@
-{ pkgs, ... }:
+{ ... }:
 {
   imports = [
     ./fish
-    ./rio
+    ./ghostty
   ];
 }
