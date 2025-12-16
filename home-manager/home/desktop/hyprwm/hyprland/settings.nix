@@ -2,8 +2,7 @@
 {
   wayland.windowManager.hyprland.settings = {
     exec-once = [
-      "hyprctl setcursor Bibata-Modern-Classic 22"
-      "caelestia shell -d"
+      "uwsm app -- hyprctl setcursor Bibata-Modern-Classic 22"
     ];
 
     monitor = "DP-1,2560x1440@170,0x0,1";

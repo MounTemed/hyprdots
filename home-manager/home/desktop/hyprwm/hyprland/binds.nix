@@ -20,9 +20,8 @@
     bind = [
       "$Mod, Q, killactive"
       "$Mod, T, togglefloating"
-      "$Mod, F, exec, rio"
-      "$Mod, H, exec, hyprpicker -a"
-      # "$Mod, S, exec, grimblast copy screen"
+      "$Mod, F, exec, uwsm app -- ghostty"
+      "$Mod, H, exec, uwsm app -- hyprpicker -a"
       "$Mod, S, exec, grimblast copy area"
 
       "$Mod, 1, workspace, 1"
