@@ -8,17 +8,17 @@
       window-padding-y = 0;
       window-padding-color = "extend";
       
-      # Если "none" вызовет ошибку типов, верните false. 
-      # Ghostty ожидает тут boolean (true/false) в большинстве версий.
-      window-decoration = false; 
+      window-decoration = false;
+      window-inherit-font-size = false;
+
+      font-size = 14;
 
       background = "111318";
       foreground = "e2e2e9";
       
       cursor-color = "acc7ff";
-      cursor-text = "0f2f60"; # <--- ИСПРАВЛЕНО (было cursor-text-color)
+      cursor-text = "0f2f60";
 
-      # Остальная палитра без изменений
       palette = [
         "0=#353434"
         "1=#8a80ff"
