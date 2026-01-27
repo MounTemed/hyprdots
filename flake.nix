@@ -18,20 +18,41 @@
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
-    hyprland.url = "github:hyprwm/hyprland";
-
-    hyprland-contrib.url = "github:hyprwm/contrib";
-    hyprland-contrib.inputs.nixpkgs.follows = "nixpkgs";
-
     hyprpicker.url = "github:hyprwm/hyprpicker";
     hyprpicker.inputs.nixpkgs.follows = "hyprland/nixpkgs";
 
-    hyprlock.url = "github:hyprwm/hyprlock";
-    hyprlock.inputs.hyprgraphics.follows = "hyprland/hyprgraphics";
-    hyprlock.inputs.hyprlang.follows = "hyprland/hyprlang";
-    hyprlock.inputs.hyprutils.follows = "hyprland/hyprutils";
-    hyprlock.inputs.nixpkgs.follows = "hyprland/nixpkgs";
-    hyprlock.inputs.systems.follows = "hyprland/systems";
+    hyprland.url = "github:hyprwm/hyprland";
+
+    hypridle = {
+      url = "github:hyprwm/hypridle";
+      inputs = {
+        hyprlang.follows = "hyprland/hyprlang";
+        hyprutils.follows = "hyprland/hyprutils";
+        nixpkgs.follows = "hyprland/nixpkgs";
+        systems.follows = "hyprland/systems";
+      };
+    };
+
+    hyprland-contrib = {
+      url = "github:hyprwm/contrib";
+      inputs.nixpkgs.follows = "hyprland/nixpkgs";
+    };
+
+    hyprland-plugins = {
+      url = "github:hyprwm/hyprland-plugins";
+      inputs.hyprland.follows = "hyprland";
+    };
+
+    hyprlock = {
+      url = "github:hyprwm/hyprlock";
+      inputs = {
+        hyprgraphics.follows = "hyprland/hyprgraphics";
+        hyprlang.follows = "hyprland/hyprlang";
+        hyprutils.follows = "hyprland/hyprutils";
+        nixpkgs.follows = "hyprland/nixpkgs";
+        systems.follows = "hyprland/systems";
+      };
+    };
 
     caelestia-shell.url = "github:caelestia-dots/shell";
     caelestia-shell.inputs.nixpkgs.follows = "nixpkgs";

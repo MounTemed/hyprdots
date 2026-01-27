@@ -2,7 +2,8 @@
 {
   wayland.windowManager.hyprland.settings = {
     exec-once = [
-      "uwsm app -- hyprctl setcursor Bibata-Modern-Classic 22"
+      "uwsm finalize"
+      "hyprctl setcursor Bibata-Modern-Classic 22"
     ];
 
     monitor = "DP-1,2560x1440@170,0x0,1";
@@ -14,6 +15,7 @@
       vrr = 0;
       middle_click_paste = false;
       enable_anr_dialog = false;
+      disable_watchdog_warning = true;
     };
 
     animations = {

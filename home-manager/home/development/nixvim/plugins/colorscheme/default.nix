@@ -1,6 +1,6 @@
 { ... }:
 {
   imports = [
-    ./cappuccin.nix
+    ./vague.nix
   ];
 }

@@ -11,7 +11,7 @@
       window-decoration = false;
       window-inherit-font-size = false;
 
-      font-size = 14;
+      font-size = 13;
 
       background = "111318";
       foreground = "e2e2e9";

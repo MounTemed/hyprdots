@@ -13,7 +13,7 @@
     };
 
     cursor = {
-      no_hardware_cursors = 0;
+      no_hardware_cursors = true;
       no_break_fs_vrr = 0;
       hide_on_touch = false;
     };

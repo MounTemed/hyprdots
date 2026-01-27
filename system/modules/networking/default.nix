@@ -2,31 +2,25 @@
 {
   networking = {
     hostName = "nixos";
-    
-    useDHCP = false;
-    dhcpcd.enable = false;
-
-    nameservers = [
-      "1.1.1.1"   # Cloudflare Primary
-      "1.0.0.1"   # Cloudflare Secondary
-      "8.8.8.8"   # Google Backup
-      "8.8.4.4"   # Google Backup
-    ];
-
     networkmanager = {
       enable = true;
-      dns = "systemd-resolved"; 
+      #dns = "systemd-resolved";
+      dns = "none";
     };
+    #nameservers = [
+    #  "1.1.1.1"
+    #  "1.0.0.1"
+    #  "8.8.8.8"
+    #];
   };
 
   services.resolved = {
-    enable = true;
-    dnsovertls = "opportunistic";
-    dnssec = "false";
-    domains = [ "~." ];
-    fallbackDns = [
-      "1.1.1.1"
-      "8.8.8.8"
-    ];
+    enable = false;
+  #  dnsovertls = "opportunistic";
+  #  dnssec = "false";
+  #  fallbackDns = [
+  #    "8.8.4.4"
+  #    "9.9.9.9"
+  #  ];
   };
 }
